@@ -43,9 +43,6 @@
   background: var(--orange-color);
   color: var(--white-color);
 }
-body {
-  overflow-x: hidden;
-}
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -222,7 +219,7 @@ header .info p {
     width: 220px;
     z-index: 10;
     border-radius: 10px 0 0 10px;
-    transform: translateX(100%);
+    transform: translateX(-10px);
     opacity: 0;
     pointer-events: none;
     transition: 0.5s ease;
@@ -231,7 +228,7 @@ header .info p {
     content: "";
     position: absolute;
     top: -10px;
-    right: 25px;
+    right: 22px;
     width: 20px;
     height: 20px;
     background: var(--text-color);
